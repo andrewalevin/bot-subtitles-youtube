@@ -7,7 +7,7 @@ DEMO_2_REQUEST = 'https://www.youtube.com/watch?v=Ao-746CujAE бегемот'
 
 START_TEXT = f'''
 👋 Hello!
-This Bot let you to get subtitles of Youtube single movie and find single word.
+This Bot lets you to get subtitles of Youtube single movie and find single word.
 
 🚩Supported language: RU only 
 (other will be available later)
