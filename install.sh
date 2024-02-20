@@ -1,6 +1,6 @@
 #!/bin/bash
 
-virtualenv -p /opt/homebrew/bin/python3.9 venv
+python3 -m venv venv
 
 source venv/bin/activate
 
