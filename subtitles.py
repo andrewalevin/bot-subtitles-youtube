@@ -92,7 +92,13 @@ def get_answer_text(subtitles, selected_index=[]):
     return output_text
 
 
+from urllib.parse import urlparse
+
+
 def main_subtitles(input_text: str) -> str:
+    if not urlparse(input_text).netloc:
+        return '⛔️ No URL in your request!'
+
     url, discovered_word = parse_input(input_text)
     if not url:
         return '⛔️ Bad input URL. Check it!'
